@@ -18,5 +18,6 @@
         <module>renren-fast</module>
         <module>renren-generator</module>
         <module>passjava-common</module>
+        <module>passjava-gateway</module>
     </modules>
 </project>

@@ -38,12 +38,26 @@
 			<artifactId>passjava-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
         <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-core</artifactId>
-            <version>1.9.0</version>
+            <version>1.9.1</version>
             <scope>compile</scope>
         </dependency>
+
+		<!-- Open Feign 依赖 -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+
+		<!-- 兼容高版本的open feign, 引用loadalancer -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-loadbalancer</artifactId>
+		</dependency>
+
     </dependencies>
 	<dependencyManagement>
 		<dependencies>
